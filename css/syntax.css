@@ -1,13 +1,38 @@
-#header {
-    position: absolute;
-    left: 0;
-    top: 0;
+/* Style all p tags */
+
+p {
+    font-size: 12px;
+}
+
+#header p {
+    font-size: 24px;
+}
+
+/* Style all header tags */
+
+h1 {
+    font-size: 44px;
 }
 
 #header h1 {
     font-size: 32px;
 }
 
-p {
-    font-size: 12px;
+#header {
+    left: 0;
+    top: 0;
+}
+
+a {
+    text-decoration: underline;
+    color: blue;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+div {
+    width: 100%;
+    background-color: aqua;
 }
