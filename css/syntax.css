@@ -29,10 +29,25 @@ a {
 }
 
 span {
+    display: block;
+    color: green;
     text-transform: uppercase;
 }
 
 div {
     width: 100%;
     background-color: aqua;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+#content-header {
+    font-size: 10px;
+    color: blueviolet;
+}
+
+.deck {
+    color: red;
 }
