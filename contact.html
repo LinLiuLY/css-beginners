@@ -7,6 +7,13 @@
     <title>CSS for beginners</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/syntax.css" />
+    <style>
+        /* CSS Conflicts & the Cascade */
+        span {
+            color: purple;
+        }
+        /* CSS Conflicts & the Cascade */
+    </style>
 </head>
 
 <body>
@@ -20,7 +27,10 @@
     <p>Hello there ninjas! Contact us below</p>
     <p>Are you cool?</p>
     <a href="http://www.google.com">google</a>
-    <span>This is span</span>
+
+    <!-- CSS Conflicts & the Cascade -->
+    <span style="color: green">This is span</span>
+    <!-- CSS Conflicts & the Cascade -->
 
     <span class="deck">I am a span tag</span>
     <span class="deck">This is span</span>

@@ -28,11 +28,17 @@ a {
     color: blue;
 }
 
+/* CSS Conflicts & the Cascade */
 span {
     display: block;
     color: green;
     text-transform: uppercase;
 }
+
+span {
+    color:grey;
+}
+/* CSS Conflicts & the Cascade */
 
 div {
     width: 100%;
