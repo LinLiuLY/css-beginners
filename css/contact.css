@@ -1,3 +1,20 @@
+body {
+    color: red;
+}
+
+div {
+    color: blue;
+}
+
+p {
+    color: green;
+}
+
+a {
+    color: darkorange;
+    text-decoration: underline;
+}
+
 /* Style all p tags */
 
 p {
@@ -19,16 +36,14 @@ h1 {
 }
 
 #header {
+    width: 100%;
+    background-color: aqua;
     left: 0;
     top: 0;
 }
 
-a {
-    text-decoration: underline;
-    color: blue;
-}
-
 /* CSS Conflicts & the Cascade */
+
 span {
     display: block;
     color: green;
@@ -36,14 +51,10 @@ span {
 }
 
 span {
-    color:grey;
+    color: grey;
 }
-/* CSS Conflicts & the Cascade */
 
-div {
-    width: 100%;
-    background-color: aqua;
-}
+/* CSS Conflicts & the Cascade */
 
 h2 {
     font-size: 26px;

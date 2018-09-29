@@ -1,0 +1,58 @@
+/* Style all p tags */
+p {
+    font-size: 12px;
+}
+
+#header p {
+    font-size: 24px;
+}
+
+/* Style all header tags */
+
+h1 {
+    font-size: 44px;
+}
+
+#header h1 {
+    font-size: 32px;
+}
+
+#header {
+    left: 0;
+    top: 0;
+}
+
+a {
+    text-decoration: underline;
+    color: blue;
+}
+
+/* CSS Conflicts & the Cascade */
+span {
+    display: block;
+    color: green;
+    text-transform: uppercase;
+}
+
+span {
+    color:grey;
+}
+/* CSS Conflicts & the Cascade */
+
+div {
+    width: 100%;
+    background-color: aqua;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+#content-header {
+    font-size: 10px;
+    color: blueviolet;
+}
+
+.deck {
+    color: red;
+}
