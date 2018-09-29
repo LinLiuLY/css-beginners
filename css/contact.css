@@ -102,17 +102,26 @@ strong {
 /* The Important Declaration */
 
 /* Targeting Multiple Elements */
+
 p, span, a, li {
     color: yellowgreen;
     font-size: 16px;
     font-weight: bold;
     font-family: Arial;
 }
+
 /* Targeting Multiple Elements */
 
 /* Descendant Selectors */
+
 #sub-content p {
     color: red;
 }
 
 /* Descendant Selectors */
+
+/* Child Selectors */
+#main-content > p {
+    color: aquamarine;
+}
+/* Child Selectors */
