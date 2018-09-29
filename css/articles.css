@@ -29,3 +29,14 @@ a[href^="http"] {
 }
 
 /* Attribute Selectors */
+
+/* Pseudo Selectors */
+a:hover {
+    color: red;
+}
+
+#main-content:hover{
+    background-color: blueviolet;
+}
+
+/* Pseudo Selectors */
