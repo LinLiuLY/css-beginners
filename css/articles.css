@@ -1,7 +1,9 @@
 /* Adjacent Selectors */
-#all-articles h2 + p {
+
+#all-articles h2+p {
     color: green;
 }
+
 /* Adjacent Selectors */
 
 /* Attribute Selectors */
@@ -19,23 +21,39 @@ a[title="google"] {
 }
 
 /* ends with pdf */
-a[href$="pdf"] { 
+
+a[href$="pdf"] {
     color: yellowgreen;
 }
 
 /* starts with http */
-a[href^="http"] { 
+
+a[href^="http"] {
     color: royalblue;
 }
 
 /* Attribute Selectors */
 
 /* Pseudo Selectors */
+/* Otherwise, say if you listed the :visited style last, if that link was visited it would override the :active and :hover declaration and the link would always be purple regardless if you were hovering or if the link was active (not ideal). */
+a:link {
+    /* Essentially means a[href], or that the link actually goes somewhere */
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
 a:hover {
+    color: green;
+}
+
+a:active {
     color: red;
 }
 
-#main-content:hover{
+#main-content:hover {
     background-color: blueviolet;
 }
 
