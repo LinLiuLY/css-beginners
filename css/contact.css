@@ -1,5 +1,5 @@
-
 /* Inheritance */
+
 body {
     color: red;
 }
@@ -16,6 +16,7 @@ a {
     color: darkorange;
     text-decoration: underline;
 }
+
 /* Inheritance */
 
 /* Style all p tags */
@@ -73,6 +74,7 @@ h2 {
 }
 
 /* Selector Specificty */
+
 #main-content p {
     color: tan;
 }
@@ -88,4 +90,11 @@ p {
 strong {
     color: black;
 }
+
 /* Selector Specificty */
+
+/* The Important Declaration */
+p {
+    color: red !important;
+}
+/* The Important Declaration */
