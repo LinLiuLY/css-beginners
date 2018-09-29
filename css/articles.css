@@ -3,3 +3,29 @@
     color: green;
 }
 /* Adjacent Selectors */
+
+/* Attribute Selectors */
+
+span[class~="deck"] {
+    color: red;
+}
+
+div[id] {
+    background-color: gray;
+}
+
+a[title="google"] {
+    color: aquamarine;
+}
+
+/* ends with pdf */
+a[href$="pdf"] { 
+    color: yellowgreen;
+}
+
+/* starts with http */
+a[href^="http"] { 
+    color: royalblue;
+}
+
+/* Attribute Selectors */
