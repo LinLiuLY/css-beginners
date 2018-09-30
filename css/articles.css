@@ -68,3 +68,12 @@ article p:last-child {
     color: blue;
 }
 /* First & Last Child Selectors */
+/* :first-child will only try to match the immediate first child of a parent element, while first-of-type will match the first occurrence of a specified element, even if it doesn't come absolutely first in the HTML. */
+article p:first-of-type {
+    font-weight: bold;
+}
+
+article p:last-of-type {
+    color: blue;
+}
+/* First & Last of Type Selectors */
