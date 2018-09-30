@@ -1,4 +1,5 @@
 /* nth Child Selectors */
+
 li:nth-child(1), li:nth-child(7) {
     color: green;
 }
@@ -12,5 +13,11 @@ li:nth-child(odd) {
 }
 
 li:nth-child(2n+1) {
-    color: gray;
+    color: blue;
+}
+
+/* nth of Type Selectors */
+
+article:nth-of-type(1) {
+    color: red;
 }
