@@ -21,3 +21,12 @@ li:nth-child(2n+1) {
 article:nth-of-type(1) {
     color: red;
 }
+
+/* Combining Selectors */
+article.featured-content {
+    background: red;
+}
+
+div.featured-content {
+    background: blue;
+}
