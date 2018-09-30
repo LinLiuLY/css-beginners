@@ -58,3 +58,13 @@ a:active {
 }
 
 /* Pseudo Selectors */
+
+/* First & Last Child Selectors */
+article p:first-child {
+    font-weight: bold;
+}
+
+article p:last-child {
+    color: blue;
+}
+/* First & Last Child Selectors */
