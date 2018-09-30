@@ -41,3 +41,31 @@ div.featured-content {
 }
 
 /* The Universal Selector */
+
+/* Font Size */
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 13px;
+}
+
+article {
+    font-size: 16px;
+}
+/* The em unit is a relative unit based on the computed value of the font size of the parent element.  */
+article h2 {
+    font-size: 4em; 
+}
+
+article p {
+    font-size: 500%;
+}
+
+/* Font Size */
