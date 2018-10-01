@@ -69,3 +69,8 @@ article p {
 }
 
 /* Font Size */
+
+/* Font Family */
+aritcle p, article h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
