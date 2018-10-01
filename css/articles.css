@@ -98,3 +98,13 @@ h2 {
 p {
     font-weight: lighter;
 }
+
+/* Text Transform */
+#main-content p {
+    text-transform: capitalize;
+}
+
+body > p {
+    text-transform: uppercase;
+}
+
