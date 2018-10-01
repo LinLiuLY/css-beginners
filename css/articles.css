@@ -35,10 +35,12 @@ a[href^="http"] {
 /* Attribute Selectors */
 
 /* Pseudo Selectors */
+
 /* Otherwise, say if you listed the :visited style last, if that link was visited it would override the :active and :hover declaration and the link would always be purple regardless if you were hovering or if the link was active (not ideal). */
+
 a:link {
     /* Essentially means a[href], or that the link actually goes somewhere */
-    color: blue;
+    color: yellowgreen;
 }
 
 a:visited {
@@ -77,4 +79,22 @@ article p:first-of-type {
 article p:last-of-type {
     color: blue;
 }
+
 /* First & Last of Type Selectors */
+
+/* Text Decoration */
+article {
+    text-decoration: overline;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+p {
+    font-weight: lighter;
+}
