@@ -1,0 +1,16 @@
+/* fit-content */
+
+ul {
+    background: deepskyblue;
+    padding: 1em;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 1em auto;
+}
+
+li {
+    display: inline-block;
+    background: tomato;
+    padding: .5em;
+}

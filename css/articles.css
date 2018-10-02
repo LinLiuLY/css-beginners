@@ -125,3 +125,12 @@ a:hover {
     text-decoration: underline;
     background-color: aquamarine;
 }
+
+/* Letter Spacing & Line Height */
+
+p {
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    word-spacing: 0.2em;
+    line-height: 2em;
+}

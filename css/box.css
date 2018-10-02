@@ -1,0 +1,143 @@
+/* Paragraph Spacing */
+
+p {
+    font-size: 14px;
+    line-height: 2em;
+    margin-bottom: 32px;
+}
+
+/* The Box Model */
+
+.box {
+    margin: 30px 10px;
+    padding: 30px;
+    border: 1px solid #000;
+    width: 400px;
+    height: 200px;
+}
+
+.small {
+    padding-left: 10px;
+}
+
+.free-box {
+    margin: 30px auto;
+    padding: 30px 20%;
+    border: 1px solid #000;
+}
+
+.free-box-width {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 30px;
+    border: 1px solid #000;
+    width: 100%;
+}
+
+.box-middle {
+    margin: 30px auto;
+    padding: 30px;
+    border: 1px solid #000;
+    width: 500px;
+    height: 200px;
+}
+
+.box-middle-responsive {
+    margin: 30px 25%;
+    border: 1px solid #000;
+    width: 50%;
+    height: 200px;
+}
+
+.new-box {
+    margin: 30px;
+    padding: 30px;
+    float: left;
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-top-color: blue;
+}
+
+.dashed {
+    border: 10px blue dashed;
+}
+
+.dotted {
+    border: 10px greenyellow dotted;
+}
+
+.double {
+    border: 10px blue double;
+}
+
+.groove {
+    border: 10px blue groove;
+}
+
+.inset {
+    border: 10px blue inset;
+}
+
+.outset {
+    border: 10px blue outset;
+}
+
+.ridge {
+    border: 10px blue ridge;
+}
+
+.solid {
+    border: 10px blue solid;
+}
+
+/* Block-level Elements */
+
+.block {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid green;
+}
+
+.inline {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid green;
+    display: inline-block;
+}
+
+a {
+    padding: 10px;
+    margin: 10px;
+    background-color: green;
+    border: 1px solid blue;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Width & Height */
+
+.static-width {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin: 20px;
+    color: white;
+}
+
+.percentage-width {
+    width: 70%;
+    height: 100px;
+    background-color: green;
+    margin: 20px;
+    color: white;
+}
+
+.inline-block {
+    width: 40%;
+    display: inline-block;
+    background-color: green;
+    margin: 20px;
+    color: white;
+}
